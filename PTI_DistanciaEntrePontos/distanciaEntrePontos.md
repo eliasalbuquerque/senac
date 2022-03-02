@@ -1,6 +1,6 @@
 # PTI Programação Orientada a Objetos
 
-Esse trabalho foi elaborado de acordo com as espessificassões da [PTI](https://github.com/eliasalbuquerque/senac/blob/main/PTI_DistanciaEntrePontos/POO-pti.pdf) e implementando outras funcionalidades que serão explicadas ao longo da análise do código.
+Esse trabalho foi elaborado segundo as especificações da [PTI](https://github.com/eliasalbuquerque/senac/blob/main/PTI_DistanciaEntrePontos/POO-pti.pdf) e implementando outras funcionalidades que serão explicadas ao longo da análise do código.
 
 No [GitHub](https://github.com/eliasalbuquerque/senac/tree/main/PTI_DistanciaEntrePontos), poderá ser consultado todo o trabalho: 
 - Algoritmo do projeto
@@ -14,7 +14,7 @@ No [GitHub](https://github.com/eliasalbuquerque/senac/tree/main/PTI_DistanciaEnt
 
 ## Classe Pontos
 
-O projeto prevê a abstração dos métodos de inserção de dados com o uso de uma interface e protegendo os atributos com o modificador de acesso **_private_**. O problema solicita a entrada de  coordenadas x e y de um “ponto” na tela. Sendo assim, aatributos inteiros e privados na classe Ponto.
+O projeto prevê a abstração dos métodos de inserção de dados com o uso de uma interface e protegendo os atributos com o modificador de acesso **_private_**. O problema solicita a entrada de  coordenadas x e y de um “ponto” na tela. Sendo assim, atributos inteiros e privados na classe Ponto.
 
 A implementação de uma condição booleana serve para o teste de entrada dos valores _x_ e _y_ do Ponto A.
 
@@ -29,7 +29,7 @@ public class Pontos implements Interface {
 
 
 
-O construtor insere valores iguais a zero nas coordenadas _x_ e _y_ do segundo ponto (Ponto B) ao iniciar cada instancia da classe. Desse modo o construtor sobrescreve o metodo abstrato do Ponto B.
+O construtor insere valores iguais a zero nas coordenadas _x_ e _y_ do segundo ponto (Ponto B) ao iniciar cada instancia da classe. Desse modo o construtor sobrescreve o método abstrato do Ponto B.
 
 ```java
     // construtores
@@ -42,9 +42,9 @@ O construtor insere valores iguais a zero nas coordenadas _x_ e _y_ do segundo p
 
 
 
-Como boa prática de escrita de código, foi implementado os _Getters_ e _Setters_ da classe, que são métodos que irão acessar ou aterar os valores dos atributos, ao invés de fazer o processo diretamente, minizando possíveis quebras de código e facilitando a implementação e manutenção do código.
+Como boa prática de escrita de código, foi implementado os _Getters_ e _Setters_ da classe, métodos que irão acessar ou alterar os valores dos atributos, ao invés de realizar o processo diretamente, minimizando possíveis quebras de código e facilitando a implementação e manutenção do código.
 
-Foi utilizado o modificador de acesso **_private_** para todos os _Setters_, a fim de limitar o acesso a inserção de dados aos atributos, feito somente pela Interface do projeto.
+Foi utilizado o modificador de acesso **_private_** para todos os _Setters_, de modo a limitar o acesso a inserção de dados aos atributos, realizado somente pela Interface do projeto.
 
 ```java
     // metodos getters e setters
@@ -62,11 +62,11 @@ Foi utilizado o modificador de acesso **_private_** para todos os _Setters_, a f
 
 
 
-Os métodos acessíveis para a inserção de dados no código é feita pela Interface e implementada atravéz de métodos abstratos na classe.
+Os métodos acessíveis para a inserção de dados no código é feita pela Interface e implementada por métodos abstratos na classe.
 
 No método `coordenadasPontoA()`, toda vez que o usuário insere coordenadas para o Ponto A, a lógica booleana é _verdadeira_ e será utilizada para a verificação de inserção obrigatória das coordenadas.
 
-O método `coordenadasPontoB()` foi implementado para a alteração do valor _default_ das coordenadas do Ponto B, sendo assim, caso queira testar ourtos valores e distâncias, basta chamar o método e inserir novos valores para _x_ e _y_.
+O método `coordenadasPontoB()` foi implementado para a alteração do valor _default_ das coordenadas do Ponto B, sendo assim, caso queira testar outros valores e distâncias, basta chamar o método e inserir novos valores para _x_ e _y_.
 
 ```java
     // metodos abstratos    
@@ -121,7 +121,7 @@ fim Metodo
 
 
 
-Para finalizar, o método `verificarPontosIguais()` abaixo verifica se foi inserido coordenadas para o Ponto A, e se sim, verifica se são valores idênticos ao Ponto B, se for igual, são mesmo ponto, não havendo distância entre eles, se não for igual, é calculada a distância entre os pontos. Se ainda não foi inserido o Ponto A, então é indicado para que o usuário entre com os valores de _x_ e _y_ para o Ponto A.
+Para finalizar, o método `verificarPontosIguais()` abaixo verifica se foi inserido coordenadas para o Ponto A, e se sim, verifica se são valores idênticos ao Ponto B, se for igual, são o mesmo ponto, não havendo distância entre eles, se não for igual, é calculada a distância entre os pontos. Se ainda não foi inserido o Ponto A, então é indicado para que o usuário entre com os valores de _x_ e _y_ para o Ponto A.
 
 ```java    
     private void verificarPontosIguais(){
