@@ -1,8 +1,8 @@
 # PTI Programação Orientada a Objetos
 
-Esse trabalho foi elaborado de acordo com as espessificassões da [PTI](link) e implementando outras funcionalidades que serão explicadas ao longo da análise do código.
+Esse trabalho foi elaborado de acordo com as espessificassões da [PTI](https://github.com/eliasalbuquerque/senac/blob/main/PTI_DistanciaEntrePontos/POO-pti.pdf) e implementando outras funcionalidades que serão explicadas ao longo da análise do código.
 
-No [GitHub](link), poderá ser consultado todo o trabalho: 
+No [GitHub](https://github.com/eliasalbuquerque/senac/tree/main/PTI_DistanciaEntrePontos), poderá ser consultado todo o trabalho: 
 - Algoritmo do projeto
 - Código main Distancia.java
 - Interface do projeto
