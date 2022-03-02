@@ -181,7 +181,7 @@ public class Distancia{
 
 ![saidaDoConsole-fontePropria](https://github.com/eliasalbuquerque/senac/blob/main/PTI_DistanciaEntrePontos/testePTI.png?raw=true "Saída do Console: Fonte própria")
 
-## Algoritmo
+<!-- ## Algoritmo
 
 ```
 Classe Pontos
@@ -251,3 +251,4 @@ Classe Pontos
 ```
 
 
+ -->
