@@ -179,7 +179,7 @@ public class Distancia{
 
 ### Saída do Console
 
-![saidaDoConsole-fontePropria]( "Saída do Console")
+![saidaDoConsole-fontePropria](https://github.com/eliasalbuquerque/senac/blob/main/PTI_DistanciaEntrePontos/testePTI.png?raw=true "Saída do Console: Fonte própria")
 
 ## Algoritmo
 
