@@ -18,7 +18,7 @@ Aula01
 - Eficiencia.
 - Aceitabilidade.
 
-> Obs.: Não existe _requisitos padrão_ de qualidade para o desenvolvimento. Cada aplicaçao tem a sua e deve ser analisada de acordo com as suas próprias características.
+> Obs.: Não existe *requisitos padrão* de qualidade para o desenvolvimento. Cada aplicaçao tem a sua e deve ser analisada de acordo com as suas próprias características.
 
 
 
@@ -34,7 +34,7 @@ O engenheiro de software deve ter os seguintes requisitos:
     - Direitos de propriedade intelectual
     - Presercação de recursos
 
-***
+----
 
 Aula02
 
@@ -61,7 +61,7 @@ Os seguintes pontos devem ser analisados para a qualidade de desenvolvimento do 
     - Modificabilidade
     - Invisibilidade
 
-***
+----
 
 Aula03
 
@@ -91,7 +91,7 @@ Aula03
             - Construção: Fazer o software.
             - Transição: (Implantação) Atividades que conduzem o produto ao ambiente de produção.
 
-***
+----
 
 Aula04 
 
@@ -107,9 +107,76 @@ Valorizar mais:
 Metodologia Ágil mais famosa é o **_Scrum_**:
 
 - Framework (conjunto de conceitos) aplicado para resolver o problema de desenvolvimento de software.
-
 - Papéis específicos:
     - Equipe de desenvolvimento: Gurpo auto-organizável e multifuncional.
     - Product Owner: Pessoa que sabe o que é o software que tem que ser feito. Responsável pelo _Backlog do Produto_.
     - Scrum Master: Especialista na metodologia _Scrum_ e facilitador quando surge problemas durante o desenvolvimento.
+- Características do _Scrum_:
+    - 30 dias de _sprint_
+    - A cada 24h, uma reunião de 15min para verificar 3 pontos:
+        1. O que foi realizado desde a útima reunião?
+        2. Há alguma dificuldade?
+        3. O que você irá fazer antes da próxima reunião?
+
+----
+
+Aula05
+
+## Gerência de Projetos
+
+**Projeto** é o esforço temporário para criar um produto.
+
+Características de um projeto:
+
+- Objetivo: Definido no começo e deve ser alcançado no final.
+- Ciclo de vida definido: Iniciação, planejamento, execução, controle e encerramento.
+- Complexidade de diferentes níveis no desenvolvimento.
+- Produz um produto, serviço ou resultado único.
+- Riscos.
+- Recursos limitados: Tempo, custo, materiais, equipamentos e pessoas.
+
+Fatores de sucesso de um projeto:
+
+- Acordo entre desenvolvimento, gerência e cliente.
+- Plano do caminho geral e responsabilidades definidas.
+- Comunicação constante e efetiva entre todos os envolvidos.
+- Escopo controlado.
+- Gerência apoiada deve ser o patrocinador do projeto e facilitador do desenvolvimento.
+
+Gerente de projetos, atribuições e responsabilidades:
+
+- Elaboração de propostas.
+- Planejamento de projetos:
+    - Criar definicao do projeto.
+    - Desmembrar o trabalho em tarefas menores.
+    - Identificar as relacoes entre as tarefas.
+    - Fazer estimativas de tempo de execucao de cada tarefa.
+    - Calcular o cronograma inicial.
+    - Atribuir e nivelar os recursos.
+- Gerenciamento de riscos:
+    - Riscos de projeto.
+    - Riscos de produto.
+    - Riscos de negócio.
+    - Fases:
+        - Identificacao de riscos: Lista de riscos potenciais.
+        - Análise de riscos: Lista priorizada de riscos.
+        - Planejamento de riscos: Prvenção de riscos e planos de contingencia.
+        - Monitoração de riscos: Avaliação de riscos.
+- Gerenciamento de pessoas:
+    - Montar equipees de acordo com as caracteristicas do projeto.
+    - Motivar, desenvolver habilidades e capacitar membros da equipe de acordo com as necessidades do projeto.
+- Gerenciamento de comunicação: Processos requeridos para garantir a geração, coleta, disseminação e armazenamento das informações do projeto.
+
+----
+
+Aula06
+
+## Engenharia de Sistemas
+
+**Sistema** - Conjunto de componentes que funcionam juntos para garantir um objetivo.
+
+Tipos de sistemas:
+    
+- Sistemas de computadores: Integracao de hardware e software
+- Sistemas sociotécnicos: Agraga conhecimento e componentes para alcançar metas objetivos.
 
