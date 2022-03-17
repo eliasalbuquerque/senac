@@ -83,7 +83,7 @@ Aula03
     - **RUP (_Rational Unified Process_):** Instância mais específica do UP:
         - Desenvolvimento iterativo.
         - Utiliza arquitetura de componentes.
-        - Modelagem visual _L _.
+        - Modelagem visual _UML_.
         - Necessidade de ferramentas de desenvolvimento.
         - **Etapas do projeto RUP:**
             - Concepção: Definição clara do que é o produto a ser desenvolvido.
@@ -114,9 +114,9 @@ Metodologia Ágil mais famosa é o **_Scrum_**:
 - Características do _Scrum_:
     - 30 dias de _sprint_
     - A cada 24h, uma reunião de 15min para verificar 3 pontos:
-        1. O que foi realizado desde a última reunião?
-        2. Há alguma dificuldade?
-        3. O que você irá fazer antes da próxima reunião?
+        - O que foi realizado desde a última reunião?
+        - Há alguma dificuldade?
+        - O que você irá fazer antes da próxima reunião?
 
 ----
 
