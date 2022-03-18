@@ -4,21 +4,21 @@ Aula01
 
 ## Processo de Software - Atividades fundamentais
 
-- **Especificaçao de software:** Desenvolvedor e cliente definem o que será feito.
+- **Especificação de software:** Desenvolvedor e cliente definem o que será feito.
 - **Desenvolvimento de software:** Projetado e programado.
-- **Validaçao de software:** Verifica se atende às necessidades do cliente.
-- **Evoluçao de software:** Atende às mudanças de requisitos do projeto.
+- **Validação de software:** Verifica se atende às necessidades do cliente.
+- **Evolução de software:** Atende às mudanças de requisitos do projeto.
 
 
 
 ## Requisitos de Qualidade de Software
 
 - Manutenibilidade.
-- Conficança e proteçao.
-- Eficiencia.
+- Confiança e proteção.
+- Eficiência.
 - Aceitabilidade.
 
-> Obs.: Não existe *requisitos padrão* de qualidade para o desenvolvimento. Cada aplicaçao tem a sua e deve ser analisada de acordo com as suas próprias características.
+> Obs.: Não existe *requisitos padrão* de qualidade para o desenvolvimento. Cada aplicação tem a sua e deve ser analisada de acordo com as suas próprias características.
 
 
 
@@ -27,12 +27,12 @@ Aula01
 O engenheiro de software deve ter os seguintes requisitos:
 
 - **Conhecimento técnico:** Para o uso de ferramentas e tecnologias para solucionar o problema.
-- **Conhecimento da área de negócios:** Para adequar o desenvolvimento e a implantaçao do software ao ambiente de negócio do cliente.
-- **Comportamento Ético e Moral:** Comportar de acordo com os aspectos éticos e morais da sociedade. Isso abrange também:
+- **Conhecimento da área de negócios:** Para adequar o desenvolvimento e a implantação do software ao ambiente de negócio do cliente.
+- **Comportamento Ético e Moral:** Comporta-se conforme os aspectos éticos e morais da sociedade. Isso abrange também:
     - Confidencialidade
     - Competência
     - Direitos de propriedade intelectual
-    - Presercação de recursos
+    - Preservação de recursos
 
 ----
 
@@ -42,9 +42,9 @@ Aula02
 
 Os seguintes pontos devem ser analisados para a qualidade de desenvolvimento do projeto.
 
-- **Clicro de vida:** Da concepção até a descontinuação.
+- **Ciclo de vida:** Da concepção até a descontinuação.
 - **Modelo de ciclo de vida do software:** Para gerenciar o desenvolvimento de software é necessário haver uma representação através de diagramas.
-- **Processo de software:** Conjunto de atividades divididas em fases. Começa com uma abstração do que será o projeto, através de textos, documentos, diagramas, etc, e conforme evolui o projeto, mais concreto fica a solução. Dentre as fases mais comuns são:
+- **Processo de software:** Conjunto de atividades divididas em fases. Começa com uma abstração do que será o projeto, por textos, documentos, diagramas, etc, e conforme evolui o projeto, mais concreto fica a solução. Dentre as fases mais comuns são:
     - Especificação
     - Projeto
     - Implementação
@@ -53,7 +53,7 @@ Os seguintes pontos devem ser analisados para a qualidade de desenvolvimento do 
 - **Necessidade do negócio:** Referente a construção ou evolução de um software:
     - Correção
     - Adaptação
-    - Funcionalidades e caracteristicas
+    - Funcionalidades e características
     - Novo produto
 - **Dificuldades:** Alguns pontos como exemplo:
     - Complexidade
@@ -65,7 +65,7 @@ Os seguintes pontos devem ser analisados para a qualidade de desenvolvimento do 
 
 Aula03
 
-## Processo de Desenvolvimento de Software: Prototipagem, Modelo Espriral, Componentização e UP
+## Processo de Desenvolvimento de Software: Prototipagem, Modelo Espiral, Componentização e UP
 
 - **Estratégia linear:** Inadequada para lidar com mudanças de requisitos.
 - **Estratégia iterativa:** Adequada quando temos apenas uma ideia vaga dos requisitos, e será detalhada ao longo do desenvolvimento.
@@ -75,12 +75,12 @@ Aula03
     - Integração entre disciplinas de Gerência de Projetos e Engenharia (técnica).
     - Diminuição de riscos do desenvolvimento (análise de riscos).
     - Envolvimento do cliente a cada iteração ou produto obtido.
-    - Aplilcável quaisquer estratégias anteriores em cada ciclo do Modelo Espiral.
+    - Aplicável quaisquer estratégias anteriores em cada ciclo do Modelo Espiral.
 - **Componentização:** Reutilização de artefato de software para compor outros projetos.
 - **Modelo de processo UP (Unified Process):** Adota:
     - Desenvolvimento baseado em componentes.
     - Processo iterativo e incremental.
-    - **RUP(Rational Unified Process):** Instância mais específica do UP:
+    - **RUP (_Rational Unified Process_):** Instância mais específica do UP:
         - Desenvolvimento iterativo.
         - Utiliza arquitetura de componentes.
         - Modelagem visual _UML_.
@@ -88,7 +88,7 @@ Aula03
         - **Etapas do projeto RUP:**
             - Concepção: Definição clara do que é o produto a ser desenvolvido.
             - Elaboração: Detalhamento da especificação (análise).
-            - Construção: Fazer o software.
+            - Construção: Elaborar o software.
             - Transição: (Implantação) Atividades que conduzem o produto ao ambiente de produção.
 
 ----
@@ -102,21 +102,21 @@ Valorizar mais:
 - **Indivíduos e interações** do que processos e ferramentas.
 - **Software em funcionamento:** do que documentação abrangente.
 - **Colaboração com o cliente** do que negociação de contratos.
-- **Responder à mudanças** do que seguir um "plano".
+- **Responder às mudanças** do que seguir um "plano".
 
 Metodologia Ágil mais famosa é o **_Scrum_**:
 
 - Framework (conjunto de conceitos) aplicado para resolver o problema de desenvolvimento de software.
 - Papéis específicos:
-    - Equipe de desenvolvimento: Gurpo auto-organizável e multifuncional.
+    - Equipe de desenvolvimento: Grupo auto-organizável e multifuncional.
     - Product Owner: Pessoa que sabe o que é o software que tem que ser feito. Responsável pelo _Backlog do Produto_.
-    - Scrum Master: Especialista na metodologia _Scrum_ e facilitador quando surge problemas durante o desenvolvimento.
+    - Scrum Master: Especialista na metodologia _Scrum_ e facilitador quando surgem problemas durante o desenvolvimento.
 - Características do _Scrum_:
     - 30 dias de _sprint_
     - A cada 24h, uma reunião de 15min para verificar 3 pontos:
-        1. O que foi realizado desde a útima reunião?
-        2. Há alguma dificuldade?
-        3. O que você irá fazer antes da próxima reunião?
+        - O que foi realizado desde a última reunião?
+        - Há alguma dificuldade?
+        - O que você irá fazer antes da próxima reunião?
 
 ----
 
@@ -147,10 +147,10 @@ Gerente de projetos, atribuições e responsabilidades:
 
 - Elaboração de propostas.
 - Planejamento de projetos:
-    - Criar definicao do projeto.
+    - Criar definição do projeto.
     - Desmembrar o trabalho em tarefas menores.
-    - Identificar as relacoes entre as tarefas.
-    - Fazer estimativas de tempo de execucao de cada tarefa.
+    - Identificar as relações entre as tarefas.
+    - Fazer estimativas de tempo de execução de cada tarefa.
     - Calcular o cronograma inicial.
     - Atribuir e nivelar os recursos.
 - Gerenciamento de riscos:
@@ -158,13 +158,13 @@ Gerente de projetos, atribuições e responsabilidades:
     - Riscos de produto.
     - Riscos de negócio.
     - Fases:
-        - Identificacao de riscos: Lista de riscos potenciais.
+        - Identificação de riscos: Lista de riscos potenciais.
         - Análise de riscos: Lista priorizada de riscos.
-        - Planejamento de riscos: Prvenção de riscos e planos de contingencia.
+        - Planejamento de riscos: Prevenção de riscos e planos de contingência.
         - Monitoração de riscos: Avaliação de riscos.
 - Gerenciamento de pessoas:
-    - Montar equipees de acordo com as caracteristicas do projeto.
-    - Motivar, desenvolver habilidades e capacitar membros da equipe de acordo com as necessidades do projeto.
+    - Montar equipes conforme as características do projeto.
+    - Motivar, desenvolver habilidades e capacitar membros da equipe segundo as necessidades do projeto.
 - Gerenciamento de comunicação: Processos requeridos para garantir a geração, coleta, disseminação e armazenamento das informações do projeto.
 
 ----
@@ -177,8 +177,9 @@ Aula06
 
 Tipos de sistemas:
     
-- Sistemas de computadores: Integracao de hardware e software
-- Sistemas sociotécnicos: Agraga conhecimento e componentes para alcançar metas objetivos.
+- Sistemas de computadores: Integração de hardware e software
+- Sistemas sócio-técnicos: Agrega conhecimento e componentes para alcançar metas objetivos.
+
 
 Propriedades dos Sistemas
 
