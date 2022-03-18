@@ -180,3 +180,65 @@ Tipos de sistemas:
 - Sistemas de computadores: Integracao de hardware e software
 - Sistemas sociotécnicos: Agraga conhecimento e componentes para alcançar metas objetivos.
 
+Propriedades dos Sistemas
+
+- Propriedades funcionais: Refere-se a funcionalidade do sistema.
+- Propriedades não funcionais: Referem-se ao comportamento do sistema em seu ambiente operacional.
+
+**Engenharia de Sistemas** - Fluxo de atividades que começa na aquisição, especificação, projeto, implementação, validação, operação e manutenção de sistemas sociotécnicos.
+
+----
+
+Aula07
+
+## Engenharia de Requisitos
+
+- **Requisito (Sommerville)** - Declaração em alto nível de um serviço que o sistema deve oferecer ou uma restrição imposta que deve ser atendida.
+- Entendimento pleno das necessidades do cliente.
+- Descrição clara do que o sistema deve atender.
+- Processo iterativo para definir as requisições.
+
+----
+
+Aula08
+
+## Documento de Visão de Projeto
+
+- Escopo: Roteiro do que deve ser feito pela equipe de desenvolvimento.
+- Escopo do produto: Características e funções do resultado esperado após o desenvolvimento.
+- Escopo do projeto: Trabalho que deve ser realizado para a entrega do produto.
+- Gestão dos escopos: Envolve definições, rastreabilidade e gerenciamento de mudanças.
+
+----
+
+## Modelagem de Sistemas e UML
+
+Aula09
+
+A modelagem irá facilitar a discussão e as decisões de projeto, registro em forma de documento e elaboração da descrição do projeto.
+
+O modelo gráfico mais famoso é o UML (_Unified Modeling Language_) que reune requisitos para a visualização dos modelos de sistemas e as interações entre si.
+
+----
+
+## Orientação a Objetos
+
+Aula10
+
+<!-- Esse modelo auxilia no gerenciamento da complexidade do projeto, no entendimento, na comunicação, redução de custos do processo e previsão de comportamentos futuros do sistema. -->
+
+**Orientação a objetos** é uma forma de organizar o software como uma coleção de objetos distintos, que interagem de acordo com seu comportamento e estrutura préviamente definida. Dentre seus componentes temos:
+
+- Objetos
+- Classes
+    - Atributos
+    - Metodos
+- Encapsulamento
+- Herança
+- Polimorfismo
+
+----
+
+## 
+
+Aula11
