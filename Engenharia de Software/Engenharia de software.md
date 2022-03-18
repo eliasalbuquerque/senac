@@ -1,5 +1,9 @@
 # Engenharia de Software
 
+
+> Conteúdo extraído das webaulas e serve apenas para **anotações pessoais** referente aos estudos da matéria. Sendo assim, não pode ser utilizado como material de desenvolvimento de trabalhos escolares de outras instituições.
+
+
 Aula01
 
 ## Processo de Software - Atividades fundamentais
