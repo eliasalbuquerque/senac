@@ -209,10 +209,10 @@ Aula08
 
 ## Documento de Visão de Projeto
 
-- Escopo: Roteiro do que deve ser feito pela equipe de desenvolvimento.
-- Escopo do produto: Características e funções do resultado esperado após o desenvolvimento.
-- Escopo do projeto: Trabalho que deve ser realizado para a entrega do produto.
-- Gestão dos escopos: Envolve definições, rastreabilidade e gerenciamento de mudanças.
+- **Escopo:** Roteiro do que deve ser feito pela equipe de desenvolvimento.
+- **Escopo do produto:** Características e funções do resultado esperado após o desenvolvimento.
+- **Escopo do projeto:** Trabalho que deve ser realizado para a entrega do produto.
+- **Gestão dos escopos:** Envolve definições, rastreabilidade e gerenciamento de mudanças.
 
 ----
 
@@ -244,6 +244,63 @@ Aula10
 
 ----
 
-## 
+## Modelagem de Sistemas e UML
 
 Aula11
+
+Abordado na Aula 09, modelagem de sistemas é a visualização gráfica dos sistemas do projeto e suas interligações. É composto pelas seguintes características:
+
+- **Diagrama de classes:** Descreve classes, atributos, métodos, instâncias, associações e restrições entre classes.
+- **Classe:** Contém os atributos e os métodos a serem instânciados.
+- **Atributos:** Propriedades do objeto.
+- **Métodos:** Funções que podem ser de uso dos objetos ou de outras classes.
+- **Associação:** Indica correlação entre classes.
+- **Multiplicidade:** Relação entre as classes:
+    - 0: não pode ser acessado.
+    - 1: um acesso.
+    - *: vários.
+- **Herança:** Sub-classes que herdam características de uma classe superior (Super-classe).
+- **Restrição:** Condicional criada para classes.
+- **Agregação:** Classes que são dependentes entre si. Representado por um losângulo vazio.
+- **Composição:** É o mais comum de ter em um projeto, onde uma classe e suas sub-classes são totalmente dependentes de uma classe superior. Representado por um losangulo preenchido.
+- **Classe associativa** ou **Composta de Associação:** Classe que está entre duas classes associadas e instância um resultado dessa associação.
+- **Classes abstratas:** Essas classes não possuem Objetos, nesse caso não podem ser instanciadas diretamente. Seus objetos se dão por sub-classes associadas a elas.
+- **Classes concretas:** Classes que possuem Objetos e podem ser instanciadas diretamente.
+- **Interface:** Estabelece as funções que podem ser acessadas para cada classe.
+
+A modelagem de sistemas pode ser usada em:
+
+- Modelagem de processo de negócio.
+- Modelagem da lógica de um caso de uso.
+- Modelagem da lógica de uma operação complexa.
+
+----
+
+## Verificação, Validação e Testes
+
+Aula14
+
+- **Verificar** e **Validar** avalia a qualidade do software quanto a sua especificação.
+- **Teste** é a principal atividade da Verificação e da Validação. Suas características de Estratégia de Testes são:
+    - Planejamento de teste.
+    - Projeto de casos de teste.
+    - Execução de teste.
+    - Avaliação dos resultados.
+
+Garante que o sistema de software produzido atenda os requisitos do escopo do projeto.
+
+----
+
+## Evolução
+
+Aula15
+
+O software não termina na entrega do produto, existe uma evolução de projeto após a entrega e visa adaptar o software quanto às atualizações de funcionalidades, requisitos, leis, processos novos de desenvolvimento e etc.
+
+Para tal, existe a **Gestão de Mudanças** que gerencia a avolução do software e organiza os requisitos necessários como:
+
+- Documentação atualizada.
+- Requisitos rastreáveis.
+
+Ao término das fases de desenvolvimento temos um **Release**, que de acordo com as necessidades, o processo de desenvolvimento reinicia para gerar novo release.
+
