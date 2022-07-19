@@ -6,7 +6,7 @@ public class ListaEncadeada<T> {
     public void adiciona(T elemento) {
         No<T> celula = new No<T>(elemento);
         this.inicio = celula;
-    }
+    } 
 
     // teste
     @Override
